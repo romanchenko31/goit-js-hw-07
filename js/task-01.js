@@ -1,4 +1,4 @@
-const list = document.querySelector('#categories');
+/*const list = document.querySelector('#categories');
 
 const firstItem = list.firstElementChild;
 const title = firstItem.querySelector('h2');
@@ -18,3 +18,6 @@ const lastTitle = lastChild.querySelector('h2');
 console.log(`Категория: ${lastTitle.textContent}`);
 const lastEl = lastChild.querySelectorAll('li').length;
 console.log(`Количество: ${lastEl}`);
+*/
+const list = document.querySelector('input');
+console.log(list.type);
